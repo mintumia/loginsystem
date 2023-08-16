@@ -2,6 +2,9 @@
 export default {
   content: [
       './resources/views/**/*.blade.php',
+      './resources/views/*.php',
+      "./resources/**/*.{html,js,php}",
+
 
   ],
   theme: {
