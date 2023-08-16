@@ -7,8 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Main Page</title>
     <link rel="stylesheet" href="{{asset('plugins')}}/tailwindcss/main.css">
+
 </head>
 <body class="container">
+@include('layouts.navbar')
+
+
 @yield("main")
 
 </body>

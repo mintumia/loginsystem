@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('guest');
 });
 
-Route::view('login','login');
+
+//Route::view('login','login');
+Route::view('home','dashboard')->middleware('auth');
